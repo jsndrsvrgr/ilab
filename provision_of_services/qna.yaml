@@ -3,70 +3,110 @@ task_description: Teach the Large Language Model about the Provision Of Services
 created_by: Jose Vergara
 domain: Provision_of_Services
 seed_examples:
-  - answer: |
-      El costo de una colposcopia en Salud Amiga es de $10.00. Este procedimiento se encuentra en la categoría de
-      consultas médicas.
-  question: ¿Cuál es el costo de una colposcopia en Salud Amiga?
-  - answer: |
-      Salud Amiga ofrece una consulta de cardiología por $10.00. Este servicio está bajo la categoría de consultas
-      médicas.
-  question: ¿Qué tipo de consulta ofrece Salud Amiga para el corazón?
-  - answer: |
-      La consulta con un gastroenterólogo en Salud Amiga tiene un valor de $10.00, dentro de la categoría de consultas
-      médicas.
-  question: ¿Cuánto cuesta una consulta con un gastroenterólogo en Salud Amiga?
-  - answer: |
-      La consulta de ginecología en Salud Amiga cuesta $10.00. Este servicio pertenece a las consultas médicas.
-  question: ¿Qué valor tiene una consulta de ginecología en Salud Amiga?
-  - answer: |
-      La consulta de medicina interna en Salud Amiga cuesta $10.00, bajo la categoría de consultas médicas.
-  question: ¿Qué costo tiene la consulta de medicina interna en Salud Amiga?
-  - answer: |
-      Una consulta con un neumólogo en Salud Amiga tiene un costo de $10.00. Esta consulta está categorizada como
-      consultas médicas.
-  question: ¿Cuánto cuesta una consulta con un neumólogo en Salud Amiga?
-  - answer: |
-      El precio de una consulta con un neurólogo en Salud Amiga es de $10.00. Esta consulta se encuentra en la
-      categoría de consultas médicas.
-  question: ¿Cuál es el precio de una consulta con un neurólogo en Salud Amiga?
-  - answer: |
-      La consulta de nutrición en Salud Amiga tiene un costo de $10.00 y está categorizada como consultas médicas.
-  question: ¿Qué costo tiene la consulta de nutrición en Salud Amiga?
-  - answer: |
-      El precio de una consulta pediátrica en Salud Amiga es de $10.00, dentro de la categoría de consultas médicas.
-  question: ¿Cuál es el precio de una consulta pediátrica en Salud Amiga?
-  - answer: |
-      Una consulta de traumatología en Salud Amiga cuesta $10.00. Este servicio está en la categoría de consultas
-      médicas.
-  question: ¿Qué costo tiene una consulta de traumatología en Salud Amiga?
-  - answer: |
-      La consulta de urología en Salud Amiga tiene un precio de $10.00 y pertenece a las consultas médicas.
-  question: ¿Cuál es el precio de una consulta de urología en Salud Amiga?
-  - answer: |
-      La vacuna contra el VPH en Salud Amiga tiene un costo de $10.00. Este servicio está bajo la categoría de consultas
-      médicas.
-  question: ¿Qué valor tiene la vacuna contra el VPH en Salud Amiga?
-  - answer: |
-      Una valoración cardiológica en Salud Amiga tiene un valor de $10.00, incluida en la categoría de consultas
-      médicas.
-  question: ¿Cuánto cuesta una valoración cardiológica en Salud Amiga?
-  - answer: |
-      Una ecografía abdominal completa en Salud Amiga cuesta $10.00. Este servicio pertenece a la categoría de
-      ecografías.
-  question: ¿Qué costo tiene una ecografía abdominal completa en Salud Amiga?
-  - answer: |
-      El precio de una ecografía arterial venosa inferior en Salud Amiga es de $10.00. Este servicio se encuentra en la
-      categoría de ecografías.
-  question: ¿Cuál es el precio de una ecografía arterial venosa inferior en Salud Amiga?
-  - answer: |
-      El valor de una tomografía de tomog macizo craneofacial en Salud Amiga es de $10.00. Este servicio se encuentra en 
-      la categoría de tomografías.
-  question: ¿Qué valor tiene una tomografía de tomog macizo craneofacial en Salud Amiga?
-  - answer: |
-      El valor de una ecografía endovaginal es de $5.00 y pertence a la categoría de Ecografías.
-  question: ¿Qué valor tiene una ecografía endovaginal en "IMAGENES PLATINUM"?
+- question: Cuál es el precio preferencial para la incisión y drenaje de hematoma?
+  answer: |
+    El precio preferencial para la incisión y drenaje de hematoma es 12.00, ofrecido por la SOCIEDAD IMPORTADORA DE
+    EQUIPOS MEDICOS Y DE LABORATORIO SIMELA S.A.
+- question: Qué servicio se ofrece bajo el código de prestación 10140?
+  answer: |
+    El servicio ofrecido bajo el código de prestación 10140 es la incisión y drenaje de hematoma, seroma o líquido
+    coleccionado.
+- question: Cuál es el nombre del prestador con Id 12?
+  answer: |
+    El nombre del prestador con Id 12 es SOCIEDAD IMPORTADORA DE EQUIPOS MEDICOS Y DE LABORATORIO SIMELA S.A.
+- question: Qué tipo de servicio es ofrecido por la SOCIEDAD IMPORTADORA DE EQUIPOS MEDICOS Y DE LABORATORIO SIMELA S.A.?
+  answer: |
+    La SOCIEDAD IMPORTADORA DE EQUIPOS MEDICOS Y DE LABORATORIO SIMELA S.A. ofrece servicios de laboratorio clínico.
+- question: Qué tipo de procedimiento es identificado por el código de grupo de prestación H001?
+  answer: |
+    El código de grupo de prestación H001 identifica un procedimiento de incisión y drenaje de hematoma, seroma o
+    líquido coleccionado.
+- question: Cuál es el nombre del servicio bajo el Id de prestación 6256?
+  answer: |
+    El nombre del servicio bajo el Id de prestación 6256 es incisión y drenaje de hematoma.
+- question: Cuál es el precio preferencial para la prestación con código 3-229-1?
+  answer: |
+    El precio preferencial para la prestación con código 3-229-1 es 12.00.
+- question: Qué incluye la prestación con el código 10140?
+  answer: |
+    La prestación con el código 10140 incluye la incisión y drenaje de hematoma, seroma o líquido coleccionado.
+- question: Qué tipo de laboratorio ofrece la SOCIEDAD IMPORTADORA DE EQUIPOS MEDICOS Y DE LABORATORIO SIMELA S.A.?
+  answer: |
+    La SOCIEDAD IMPORTADORA DE EQUIPOS MEDICOS Y DE LABORATORIO SIMELA S.A. ofrece un laboratorio clínico.
+- question: Cuál es el precio público para la incisión y drenaje de hematoma?
+  answer: |
+    El precio público para la incisión y drenaje de hematoma es 12.00.
+- question: Quién ofrece el servicio de incisión y drenaje de hematoma?
+  answer: |
+    El servicio de incisión y drenaje de hematoma es ofrecido por la SOCIEDAD IMPORTADORA DE EQUIPOS MEDICOS Y DE
+    LABORATORIO SIMELA S.A.
+- question: Qué incluye el servicio identificado por el código de prestación 10140?
+  answer: |
+    El servicio identificado por el código de prestación 10140 incluye la incisión y drenaje de hematoma, seroma o
+    líquido coleccionado.
+- question: Cuál es el Id de la prestación ofrecida por la SOCIEDAD IMPORTADORA DE EQUIPOS MEDICOS Y DE LABORATORIO SIMELA S.A.?
+  answer: |
+    El Id de la prestación ofrecida por la SOCIEDAD IMPORTADORA DE EQUIPOS MEDICOS Y DE LABORATORIO SIMELA S.A. es 6256.
+- question: Qué tipo de servicios se categorizan bajo el código de grupo de prestación H001?
+  answer: |
+    Los servicios categorizados bajo el código de grupo de prestación H001 incluyen procedimientos de incisión y drenaje
+    de hematoma, seroma o líquido coleccionado.
+- question: Cuál es el Id del prestador que ofrece servicios de laboratorio clínico?
+  answer: |
+    El Id del prestador que ofrece servicios de laboratorio clínico es 12.
+- question: Qué tipo de procedimiento se realiza bajo el código de prestación 10140?
+  answer: |
+    Bajo el código de prestación 10140 se realiza un procedimiento de incisión y drenaje de hematoma, seroma o líquido
+    coleccionado.
+- question: Cuál es el precio preferencial del servicio con código de prestación 10140?
+  answer: |
+    El precio preferencial del servicio con código de prestación 10140 es 12.00.
+- question: Qué incluye el procedimiento identificado por el código de prestación 3-229-1?
+  answer: |
+    El procedimiento identificado por el código de prestación 3-229-1 incluye la incisión y drenaje de hematoma.
+- question: Quién ofrece servicios de incisión y drenaje de hematoma?
+  answer: |
+    Los servicios de incisión y drenaje de hematoma son ofrecidos por la SOCIEDAD IMPORTADORA DE EQUIPOS MEDICOS Y DE
+    LABORATORIO SIMELA S.A.
+- question: Qué tipo de servicios están bajo el código de grupo de prestación H001?
+  answer: |
+    Los servicios bajo el código de grupo de prestación H001 incluyen procedimientos de incisión y drenaje de hematoma,
+    seroma o líquido coleccionado.
+- question: Cuál es el nombre de la prestación bajo el código 3-229-1?
+  answer: |
+    El nombre de la prestación bajo el código 3-229-1 es incisión y drenaje de hematoma.
+- question: Qué procedimiento se realiza con el código de prestación 10140?
+  answer: |
+    El procedimiento que se realiza con el código de prestación 10140 es la incisión y drenaje de hematoma, seroma o
+    líquido coleccionado.
+- question: Cuál es el precio preferencial del procedimiento con código 3-229-1?
+  answer: |
+    El precio preferencial del procedimiento con código 3-229-1 es 12.00.
+- question: Qué tipo de laboratorio ofrece servicios con el código de grupo de prestación H001?
+  answer: |
+    El laboratorio clínico ofrece servicios con el código de grupo de prestación H001.
+- question: Cuál es el Id de la prestación de incisión y drenaje de hematoma?
+  answer: |
+    El Id de la prestación de incisión y drenaje de hematoma es 6256.
+- question: Qué servicio es identificado por el código de prestación 3-229-1?
+  answer: |
+    El servicio identificado por el código de prestación 3-229-1 es la incisión y drenaje de hematoma.
+- question: Cuál es el precio preferencial de la incisión y drenaje de hematoma?
+  answer: |
+    El precio preferencial de la incisión y drenaje de hematoma es 12.00, ofrecido por la SOCIEDAD IMPORTADORA DE
+    EQUIPOS MEDICOS Y DE LABORATORIO SIMELA S.A.
+- question: Qué incluye la prestación con el código de prestación 10140?
+  answer: |
+    La prestación con el código de prestación 10140 incluye la incisión y drenaje de hematoma, seroma o líquido
+    coleccionado.
+- question: Qué tipo de laboratorio ofrece la SOCIEDAD IMPORTADORA DE EQUIPOS MEDICOS Y DE LABORATORIO SIMELA S.A.?
+  answer: |
+    La SOCIEDAD IMPORTADORA DE EQUIPOS MEDICOS Y DE LABORATORIO SIMELA S.A. ofrece un laboratorio clínico.
+- question: Cuál es el precio público para la incisión y drenaje de hematoma?
+  answer: |
+    El precio público para la incisión y drenaje de hematoma es 12.00.
 document:
   repo: https://github.com/jsndrsvrgr/ilab.git
-  commit: 5e245a2
+  commit: 2e7bf8b
   patterns:
     - provision_of_services/services.md
